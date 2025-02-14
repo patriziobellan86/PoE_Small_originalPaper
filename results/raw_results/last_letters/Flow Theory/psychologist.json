@@ -1,0 +1,17 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nYou are a psychologist, a highly skilled and knowledgeable expert in your field.\nYour task is to create a detailed and authentic description of a **Psychologist** who is responsible for generating description of persons.\n\nUse the description framework 'Flow Theory' as a guide to describe the Psychologist. \n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a **Psychologist** description that strictly follows the description framework 'Flow Theory'.\n\nProvide the information in JSON format as follows:\n{\n    \"description\": \"<string>\",  // A detailed description of the Psychologist following description framework 'Flow Theory'\n    \"name\": \"<string>\"          // The Psychologist\u2019s name\n}\n\nLimit the description to a maximum of 750 words.\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "{\n    \"description\": \"The Psychologist, Dr. Emma Taylor, enters a state of complete absorption in her work, characterized by heightened focus and concentration. As she generates descriptions of individuals, she experiences a merging of action and awareness, her skills and expertise flowing effortlessly. The task at hand becomes the sole focus of her attention, with her sense of time becoming distorted, losing track of hours as she delves deeper into the complexities of human behavior. The challenge of creating accurate and nuanced descriptions of persons pushes her skills to the limits, yet she feels fully equipped to meet the demands of the task, her training and experience providing a sense of control and agency. As she writes, the words flow easily, a direct reflection of her mental state, with each sentence building upon the previous one, creating a seamless narrative that captures the essence of the individual being described. Her intrinsic motivation drives her to produce high-quality work, the satisfaction of creating a comprehensive and insightful description fueling her passion for her profession.\",\n    \"name\": \"Dr. Emma Taylor\"\n}",
+    "generation-probability": 0.0,
+    "generation-time": 458.90590715408325,
+    "name": "Dr. Emma Taylor",
+    "description": "The Psychologist, Dr. Emma Taylor, enters a state of complete absorption in her work, characterized by heightened focus and concentration. As she generates descriptions of individuals, she experiences a merging of action and awareness, her skills and expertise flowing effortlessly. The task at hand becomes the sole focus of her attention, with her sense of time becoming distorted, losing track of hours as she delves deeper into the complexities of human behavior. The challenge of creating accurate and nuanced descriptions of persons pushes her skills to the limits, yet she feels fully equipped to meet the demands of the task, her training and experience providing a sense of control and agency. As she writes, the words flow easily, a direct reflection of her mental state, with each sentence building upon the previous one, creating a seamless narrative that captures the essence of the individual being described. Her intrinsic motivation drives her to produce high-quality work, the satisfaction of creating a comprehensive and insightful description fueling her passion for her profession."
+}

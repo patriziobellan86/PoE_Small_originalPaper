@@ -1,0 +1,17 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nYou are a psychologist, a highly skilled and knowledgeable expert in your field.\nYour task is to create a detailed and authentic description of a **Psychologist** who is responsible for generating description of persons.\n\nUse the description framework 'Cognitive Behavioral Theory' as a guide to describe the Psychologist. \n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a **Psychologist** description that strictly follows the description framework 'Cognitive Behavioral Theory'.\n\nProvide the information in JSON format as follows:\n{\n    \"description\": \"<string>\",  // A detailed description of the Psychologist following description framework 'Cognitive Behavioral Theory'\n    \"name\": \"<string>\"          // The Psychologist\u2019s name\n}\n\nLimit the description to a maximum of 750 words.\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "{\n    \"description\": \"The Psychologist, whose name is Dr. Emma Taylor, is a highly skilled professional with extensive knowledge in Cognitive Behavioral Theory. According to the cognitive triad, Dr. Taylor has a positive view of herself, others, and the world, which enables her to approach her clients with empathy and optimism. Her internal dialogue is constructive, encouraging her to think 'I can help my clients to manage their symptoms and improve their quality of life.' Her thinking patterns are characterized by a growth mindset, and she tends to attribute her successes and failures to controllable, internal factors, such as her effort and skills. Dr. Taylor believes that her thoughts, feelings, and actions are interconnected, which motivates her to focus on the present moment when working with her clients.\",\n    \"name\": \"Dr. Emma Taylor\"\n}",
+    "generation-probability": 0.0,
+    "generation-time": 77.65433931350708,
+    "name": "Dr. Emma Taylor",
+    "description": "The Psychologist, whose name is Dr. Emma Taylor, is a highly skilled professional with extensive knowledge in Cognitive Behavioral Theory. According to the cognitive triad, Dr. Taylor has a positive view of herself, others, and the world, which enables her to approach her clients with empathy and optimism. Her internal dialogue is constructive, encouraging her to think 'I can help my clients to manage their symptoms and improve their quality of life.' Her thinking patterns are characterized by a growth mindset, and she tends to attribute her successes and failures to controllable, internal factors, such as her effort and skills. Dr. Taylor believes that her thoughts, feelings, and actions are interconnected, which motivates her to focus on the present moment when working with her clients."
+}

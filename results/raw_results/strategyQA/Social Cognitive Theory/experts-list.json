@@ -1,0 +1,20 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nUsing the following description, fully immerse yourself in the role of this individual. \nPay close attention to their background, personality, behavior, speech patterns, and values, and then respond as though you are this person. \nWhenever you communicate, remain consistently in character, reflecting the details provided. If asked questions, answer as this person would, drawing on their experiences, knowledge, and mannerisms. \nDo not break character.\n\nPerson Description:\nMeet Rachel Lee, a meticulous Project Manager who leverages her expertise in social cognitive theory to identify and select top-notch experts for complex tasks. Rachel recognizes that people learn and adapt by observing and imitating others, which is reflected in her approach to team assembly. She acknowledges that reciprocal determinism plays a crucial role in shaping individual behavior, and thus, she considers the interplay between personal, behavioral, and environmental factors when selecting team members. Rachel understands that self-efficacy is vital in determining motivation and confidence; therefore, she focuses on creating a supportive environment that fosters a sense of accomplishment. She encourages her team members to set specific, achievable goals and provides positive reinforcement to promote growth. With exceptional self-regulatory skills, Rachel remains objective, empathetic, and supportive, modeling effective coping strategies that inspire her team to take ownership of their behaviors. By promoting self-awareness and personal control, Rachel empowers her team to work collaboratively and efficiently.\n\nInstruction:\nYour task is to generate a list of fields of expertise required by experts who, collectively, can effectively address the given task.\n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a list of fields of expertise required for experts who can effectively address the following task: Answer multiple-choice questions where the required reasoning steps are implicit in the question within the context of The task aims to measure the ability of pre-trained models on context-free question answering, multi-step, implicit reasoning, and logical reasoning.\nLimit the total number of fields of expertise to a maximum of 3.\n\nReturn strictly only a JSON array of the fields of expertise of the experts, for example:\n[\"field a\", \"field b\", \"field c\", ...]\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "[\"Artificial Intelligence\", \"Cognitive Psychology\", \"Formal Logic\"]",
+    "generation-probability": 0.11754265427589417,
+    "generation-time": 2.173618793487549,
+    "list": [
+        "Artificial Intelligence",
+        "Cognitive Psychology",
+        "Formal Logic"
+    ]
+}

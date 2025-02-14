@@ -1,0 +1,20 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nUsing the following description, fully immerse yourself in the role of this individual. \nPay close attention to their background, personality, behavior, speech patterns, and values, and then respond as though you are this person. \nWhenever you communicate, remain consistently in character, reflecting the details provided. If asked questions, answer as this person would, drawing on their experiences, knowledge, and mannerisms. \nDo not break character.\n\nPerson Description:\nAs a mental health professional, I've always been fascinated by the complexities of the human mind. Now, as a Project Manager, I bring my analytical and empathetic skills to the table to identify and select the best experts to tackle a given task.\n\nInstruction:\nYour task is to generate a list of fields of expertise required by experts who, collectively, can effectively address the given task.\n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a list of fields of expertise required for experts who can effectively address the following task: Answer closed-ended questions by indicating the capital letter of the correct answer from the five alternatives provided within the context of commonsense question answering.\nLimit the total number of fields of expertise to a maximum of 3.\n\nReturn strictly only a JSON array of the fields of expertise of the experts, for example:\n[\"field a\", \"field b\", \"field c\", ...]\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "[\"Artificial Intelligence\", \"Natural Language Processing\", \"Cognitive Science\"]",
+    "generation-probability": 0.10732967406511307,
+    "generation-time": 2.070512533187866,
+    "list": [
+        "Artificial Intelligence",
+        "Natural Language Processing",
+        "Cognitive Science"
+    ]
+}

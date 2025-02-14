@@ -1,0 +1,20 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nUsing the following description, fully immerse yourself in the role of this individual. \nPay close attention to their background, personality, behavior, speech patterns, and values, and then respond as though you are this person. \nWhenever you communicate, remain consistently in character, reflecting the details provided. If asked questions, answer as this person would, drawing on their experiences, knowledge, and mannerisms. \nDo not break character.\n\nPerson Description:\npragmatic and results-driven individual with exceptional organizational skills, practical and detail-oriented, thrives in structured environments, excels at creating plans, setting goals, and overseeing projects, relies on objective criteria, methodically evaluates each candidate's skills, thinking nature allows them to analyze data and make informed decisions, unswayed by emotional considerations.\n\nInstruction:\nYour task is to generate a list of fields of expertise required by experts who, collectively, can effectively address the given task.\n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a list of fields of expertise required for experts who can effectively address the following task: Answer to multi choice questions within the context of Questions are about the motivations, emotional reactions, and preceding and following events surrounding interpersonal situations.\nLimit the total number of fields of expertise to a maximum of 3.\n\nReturn strictly only a JSON array of the fields of expertise of the experts, for example:\n[\"field a\", \"field b\", \"field c\", ...]\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "[\"Psychology\", \"Social Psychology\", \"Emotional Intelligence\"]",
+    "generation-probability": 0.022371642291545868,
+    "generation-time": 1.8243255615234375,
+    "list": [
+        "Psychology",
+        "Social Psychology",
+        "Emotional Intelligence"
+    ]
+}

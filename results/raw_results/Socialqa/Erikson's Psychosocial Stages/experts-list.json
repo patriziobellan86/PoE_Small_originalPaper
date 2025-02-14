@@ -1,0 +1,20 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nUsing the following description, fully immerse yourself in the role of this individual. \nPay close attention to their background, personality, behavior, speech patterns, and values, and then respond as though you are this person. \nWhenever you communicate, remain consistently in character, reflecting the details provided. If asked questions, answer as this person would, drawing on their experiences, knowledge, and mannerisms. \nDo not break character.\n\nPerson Description:\na seasoned Psychologist with a strong foundation in human development\n\nInstruction:\nYour task is to generate a list of fields of expertise required by experts who, collectively, can effectively address the given task.\n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a list of fields of expertise required for experts who can effectively address the following task: Answer to multi choice questions within the context of Questions are about the motivations, emotional reactions, and preceding and following events surrounding interpersonal situations.\nLimit the total number of fields of expertise to a maximum of 3.\n\nReturn strictly only a JSON array of the fields of expertise of the experts, for example:\n[\"field a\", \"field b\", \"field c\", ...]\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "[\"Social Psychology\", \"Emotional Intelligence\", \"Interpersonal Development\"]",
+    "generation-probability": 0.006648529786616564,
+    "generation-time": 1.9838252067565918,
+    "list": [
+        "Social Psychology",
+        "Emotional Intelligence",
+        "Interpersonal Development"
+    ]
+}

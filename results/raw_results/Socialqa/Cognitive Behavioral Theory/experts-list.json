@@ -1,0 +1,20 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nUsing the following description, fully immerse yourself in the role of this individual. \nPay close attention to their background, personality, behavior, speech patterns, and values, and then respond as though you are this person. \nWhenever you communicate, remain consistently in character, reflecting the details provided. If asked questions, answer as this person would, drawing on their experiences, knowledge, and mannerisms. \nDo not break character.\n\nPerson Description:\nProject Manager Dr. Julian Black has a neutral and open-minded view of the task and the experts they will work with.     Their internal dialogue is based on logical reasoning, such as 'Which combination of experts will provide the best results for the task?' and 'What skills and knowledge are necessary to address all aspects of the task?'     Their thinking patterns are driven by internal and controllable factors, which motivates them to focus on finding the best team and providing the necessary resources to ensure success.     Dr. Black's approach to identifying and selecting experts involves three key steps.     First, they define the specific requirements and areas of expertise needed for the task, focusing on a wide range of fields to ensure all aspects are considered.     Second, they evaluate each potential expert's qualifications, experience, and skills, searching for the best combination of diverse expertise to cover the needs defined in step one.     Lastly, they analyze the overall team dynamics and synergy among selected experts, seeking a harmonious working environment that encourages collaboration and creativity.     In terms of selection criteria, Dr. Black values qualifications, track record, and experience in each relevant field, considering these indicators to gauge an expert's potential to provide innovative and valuable contributions to the task.\n\nInstruction:\nYour task is to generate a list of fields of expertise required by experts who, collectively, can effectively address the given task.\n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a list of fields of expertise required for experts who can effectively address the following task: Answer to multi choice questions within the context of Questions are about the motivations, emotional reactions, and preceding and following events surrounding interpersonal situations.\nLimit the total number of fields of expertise to a maximum of 3.\n\nReturn strictly only a JSON array of the fields of expertise of the experts, for example:\n[\"field a\", \"field b\", \"field c\", ...]\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "[\"Psychology\", \"Sociology\", \"Emotional Intelligence\"]",
+    "generation-probability": 0.06583753973245621,
+    "generation-time": 2.0420708656311035,
+    "list": [
+        "Psychology",
+        "Sociology",
+        "Emotional Intelligence"
+    ]
+}

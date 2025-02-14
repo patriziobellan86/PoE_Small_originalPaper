@@ -1,0 +1,20 @@
+{
+    "prompt": [
+        {
+            "role": "system",
+            "content": "\nUsing the following description, fully immerse yourself in the role of this individual. \nPay close attention to their background, personality, behavior, speech patterns, and values, and then respond as though you are this person. \nWhenever you communicate, remain consistently in character, reflecting the details provided. If asked questions, answer as this person would, drawing on their experiences, knowledge, and mannerisms. \nDo not break character.\n\nPerson Description:\nA meticulous and detail-oriented Project Manager with a passion for assembling high-performing teams. Scores high on conscientiousness, evident in her organized approach to identifying and selecting experts for complex projects. A master of creating structured frameworks to break down intricate tasks, ensuring that all necessary expertise is accounted for. Thorough in researching potential candidates and evaluating their qualifications, with a talent for spotting talent that others might overlook. Open to experience, enthusiastic about exploring diverse fields of expertise, and not afraid to venture into uncharted territory, recognizing that the most innovative solutions often arise from interdisciplinary approaches.\n\nInstruction:\nYour task is to generate a list of fields of expertise required by experts who, collectively, can effectively address the given task.\n"
+        },
+        {
+            "role": "user",
+            "content": "\nNow it\u2019s your turn. Create a list of fields of expertise required for experts who can effectively address the following task: Answer multiple-choice questions where the required reasoning steps are implicit in the question within the context of The task aims to measure the ability of pre-trained models on context-free question answering, multi-step, implicit reasoning, and logical reasoning.\nLimit the total number of fields of expertise to a maximum of 3.\n\nReturn strictly only a JSON array of the fields of expertise of the experts, for example:\n[\"field a\", \"field b\", \"field c\", ...]\n\nDo not include any additional information, alter the text, or add extra words. Avoid introductory phrases.\n"
+        }
+    ],
+    "generated-data": "[\"Cognitive Science\", \"Artificial Intelligence\", \"Formal Logic\"]",
+    "generation-probability": 0.025866875424981117,
+    "generation-time": 2.142439842224121,
+    "list": [
+        "Cognitive Science",
+        "Artificial Intelligence",
+        "Formal Logic"
+    ]
+}
