@@ -1,6 +1,6 @@
 # PoE_Small Repository
 
-This repository contains the code and experimental results for the paper **"PoE_Small"**.
+This repository contains the code and experimental results for the paper **"Beyond Generalist LLMs: The Power of Personality-Driven Expert Agents Ecosystem"**.
 
 ## Repository Structure
 
