@@ -18,11 +18,11 @@ This folder contains the experimental results, organized into subfolders:
 
 #### `results/evaluation_scripts/`
 - Contains the evaluation scripts used to extract and normalize answers.
-- **Important:** Before running the evaluation scripts, ensure that the file paths are correctly set up according to your system.
+- **Important:** Before running the evaluation scripts, ensure file paths are correctly set up according to your system.
 
 #### `results/raw_results/`
 - Contains the raw experimental results.
-- Results are organized by dataset, with each dataset folder containing subfolders corresponding to different **description frameworks**.
+- Results are organized by dataset, with each folder containing subfolders corresponding to different **description frameworks**.
 - Each description framework folder includes the following files:
 
   - **`args_dict.json`** – Contains the experimental settings.
@@ -34,6 +34,4 @@ This folder contains the experimental results, organized into subfolders:
   - **`queries_answers.json`** – Records the responses of the agents and the Final Decision Maker for each query.
 
 #### `results/goldstandard/`
-- Contains the gold standard for evaluating the results.
-
-For further details, refer to the paper's **Appendix**.
+- It contains the gold standard for evaluating the results.
