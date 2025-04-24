@@ -1,12 +1,17 @@
 # PoE_Small Repository
 
-This repository contains the code and experimental results for the paper **"Beyond Generalist LLMs: The Power of Personality-Driven Expert Agents Ecosystem"**.
+This repository contains the code and experimental results for the paper **"Minds with a Mission: the Role of Personality in a Multi-Agent System"**.
+
+
+Detailed Statistical Analyses and the completed results tables are provided in  **StatisticalAnalyses.pdf**.
+
+Detailed instructions on how to run the system can be found in **ImplementationDetails.pdf**.
 
 ## Repository Structure
 
 ### `PoE_Small/`
 This folder contains the implementation of our multi-agent system.  
-Detailed instructions on how to run the system can be found in the **Appendix** of the paper.
+
 
 ### `results/`
 This folder contains the experimental results, organized into subfolders:
