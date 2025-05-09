@@ -1,6 +1,6 @@
-# PoE_Small Repository
+# Pool of Experts Repository
 
-This repository contains the code and experimental results for the paper **"Minds with a Mission: the Role of Personality in a Multi-Agent System"**.
+This repository contains the code and experimental results for the **"Pool of Experts"**.
 
 
 Detailed Statistical Analyses and the completed results tables are provided in  **StatisticalAnalyses.pdf**.
